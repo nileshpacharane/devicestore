@@ -1,0 +1,69 @@
+msgFri Jul 16 2021 12:25:19 GMT+0530 (India Standard Time) - TypeError: Cannot read property 'device' of undefined
+    at exports.create (E:\Nilesh\NodeJs-Express\tcs_project\backend\src\controller\device.controller.js:16:30)
+    at Layer.handle [as handle_request] (E:\Nilesh\NodeJs-Express\tcs_project\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\Nilesh\NodeJs-Express\tcs_project\backend\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (E:\Nilesh\NodeJs-Express\tcs_project\backend\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (E:\Nilesh\NodeJs-Express\tcs_project\backend\node_modules\express\lib\router\layer.js:95:5)
+    at E:\Nilesh\NodeJs-Express\tcs_project\backend\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (E:\Nilesh\NodeJs-Express\tcs_project\backend\node_modules\express\lib\router\index.js:335:12)
+    at next (E:\Nilesh\NodeJs-Express\tcs_project\backend\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (E:\Nilesh\NodeJs-Express\tcs_project\backend\node_modules\express\lib\router\index.js:174:3)
+    at router (E:\Nilesh\NodeJs-Express\tcs_project\backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (E:\Nilesh\NodeJs-Express\tcs_project\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\Nilesh\NodeJs-Express\tcs_project\backend\node_modules\express\lib\router\index.js:317:13)
+    at E:\Nilesh\NodeJs-Express\tcs_project\backend\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (E:\Nilesh\NodeJs-Express\tcs_project\backend\node_modules\express\lib\router\index.js:335:12)
+    at next (E:\Nilesh\NodeJs-Express\tcs_project\backend\node_modules\express\lib\router\index.js:275:10)
+    at E:\Nilesh\NodeJs-Express\tcs_project\backend\src\utilities\requestLogger.js:9:13
+Fri Jul 16 2021 12:30:43 GMT+0530 (India Standard Time) - TypeError: Cannot read property 'device' of undefined
+    at exports.create (E:\Nilesh\NodeJs-Express\tcs_project\backend\src\controller\device.controller.js:16:30)
+    at Layer.handle [as handle_request] (E:\Nilesh\NodeJs-Express\tcs_project\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\Nilesh\NodeJs-Express\tcs_project\backend\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (E:\Nilesh\NodeJs-Express\tcs_project\backend\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (E:\Nilesh\NodeJs-Express\tcs_project\backend\node_modules\express\lib\router\layer.js:95:5)
+    at E:\Nilesh\NodeJs-Express\tcs_project\backend\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (E:\Nilesh\NodeJs-Express\tcs_project\backend\node_modules\express\lib\router\index.js:335:12)
+    at next (E:\Nilesh\NodeJs-Express\tcs_project\backend\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (E:\Nilesh\NodeJs-Express\tcs_project\backend\node_modules\express\lib\router\index.js:174:3)
+    at router (E:\Nilesh\NodeJs-Express\tcs_project\backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (E:\Nilesh\NodeJs-Express\tcs_project\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\Nilesh\NodeJs-Express\tcs_project\backend\node_modules\express\lib\router\index.js:317:13)
+    at E:\Nilesh\NodeJs-Express\tcs_project\backend\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (E:\Nilesh\NodeJs-Express\tcs_project\backend\node_modules\express\lib\router\index.js:335:12)
+    at next (E:\Nilesh\NodeJs-Express\tcs_project\backend\node_modules\express\lib\router\index.js:275:10)
+    at E:\Nilesh\NodeJs-Express\tcs_project\backend\src\utilities\requestLogger.js:9:13
+Fri Jul 16 2021 15:56:42 GMT+0530 (India Standard Time) - ValidationError: Device validation failed: device: device name is mandatory, os: os name is mandatory, manufacturer: manufacturer name is mandatory
+    at model.Document.invalidate (E:\Nilesh\NodeJs-Express\tcs_project\backend\node_modules\mongoose\lib\document.js:2757:32)
+    at E:\Nilesh\NodeJs-Express\tcs_project\backend\node_modules\mongoose\lib\document.js:2549:17
+    at E:\Nilesh\NodeJs-Express\tcs_project\backend\node_modules\mongoose\lib\schematype.js:1273:9
+    at processTicksAndRejections (internal/process/task_queues.js:76:11)
+Fri Jul 16 2021 15:56:47 GMT+0530 (India Standard Time) - ValidationError: Device validation failed: device: device name is mandatory, os: os name is mandatory, manufacturer: manufacturer name is mandatory
+    at model.Document.invalidate (E:\Nilesh\NodeJs-Express\tcs_project\backend\node_modules\mongoose\lib\document.js:2757:32)
+    at E:\Nilesh\NodeJs-Express\tcs_project\backend\node_modules\mongoose\lib\document.js:2549:17
+    at E:\Nilesh\NodeJs-Express\tcs_project\backend\node_modules\mongoose\lib\schematype.js:1273:9
+    at processTicksAndRejections (internal/process/task_queues.js:76:11)
+Fri Jul 16 2021 15:56:58 GMT+0530 (India Standard Time) - ValidationError: Device validation failed: device: device name is mandatory, os: os name is mandatory, manufacturer: manufacturer name is mandatory
+    at model.Document.invalidate (E:\Nilesh\NodeJs-Express\tcs_project\backend\node_modules\mongoose\lib\document.js:2757:32)
+    at E:\Nilesh\NodeJs-Express\tcs_project\backend\node_modules\mongoose\lib\document.js:2549:17
+    at E:\Nilesh\NodeJs-Express\tcs_project\backend\node_modules\mongoose\lib\schematype.js:1273:9
+    at processTicksAndRejections (internal/process/task_queues.js:76:11)
+Fri Jul 16 2021 15:57:02 GMT+0530 (India Standard Time) - ValidationError: Device validation failed: device: device name is mandatory, os: os name is mandatory, manufacturer: manufacturer name is mandatory
+    at model.Document.invalidate (E:\Nilesh\NodeJs-Express\tcs_project\backend\node_modules\mongoose\lib\document.js:2757:32)
+    at E:\Nilesh\NodeJs-Express\tcs_project\backend\node_modules\mongoose\lib\document.js:2549:17
+    at E:\Nilesh\NodeJs-Express\tcs_project\backend\node_modules\mongoose\lib\schematype.js:1273:9
+    at processTicksAndRejections (internal/process/task_queues.js:76:11)
+Fri Jul 16 2021 15:57:07 GMT+0530 (India Standard Time) - ValidationError: Device validation failed: device: device name is mandatory, os: os name is mandatory, manufacturer: manufacturer name is mandatory
+    at model.Document.invalidate (E:\Nilesh\NodeJs-Express\tcs_project\backend\node_modules\mongoose\lib\document.js:2757:32)
+    at E:\Nilesh\NodeJs-Express\tcs_project\backend\node_modules\mongoose\lib\document.js:2549:17
+    at E:\Nilesh\NodeJs-Express\tcs_project\backend\node_modules\mongoose\lib\schematype.js:1273:9
+    at processTicksAndRejections (internal/process/task_queues.js:76:11)
+Fri Jul 16 2021 15:57:28 GMT+0530 (India Standard Time) - ValidationError: Device validation failed: device: device name is mandatory, os: os name is mandatory, manufacturer: manufacturer name is mandatory
+    at model.Document.invalidate (E:\Nilesh\NodeJs-Express\tcs_project\backend\node_modules\mongoose\lib\document.js:2757:32)
+    at E:\Nilesh\NodeJs-Express\tcs_project\backend\node_modules\mongoose\lib\document.js:2549:17
+    at E:\Nilesh\NodeJs-Express\tcs_project\backend\node_modules\mongoose\lib\schematype.js:1273:9
+    at processTicksAndRejections (internal/process/task_queues.js:76:11)
+Fri Jul 16 2021 15:59:13 GMT+0530 (India Standard Time) - ValidationError: Device validation failed: device: device name is mandatory, os: os name is mandatory, manufacturer: manufacturer name is mandatory
+    at model.Document.invalidate (E:\Nilesh\NodeJs-Express\tcs_project\backend\node_modules\mongoose\lib\document.js:2757:32)
+    at E:\Nilesh\NodeJs-Express\tcs_project\backend\node_modules\mongoose\lib\document.js:2549:17
+    at E:\Nilesh\NodeJs-Express\tcs_project\backend\node_modules\mongoose\lib\schematype.js:1273:9
+    at processTicksAndRejections (internal/process/task_queues.js:76:11)

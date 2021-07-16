@@ -1,0 +1,37 @@
+
+<button mat-raised-button color="primary" (click)="openDialog()">Add Device</button>
+<table mat-table [dataSource]="devices" class="mat-elevation-z8">
+
+  <!-- Position Column -->
+  <ng-container matColumnDef="device">
+    <th mat-header-cell *matHeaderCellDef> Device </th>
+    <td mat-cell *matCellDef="let element"> {{element.device}} </td>
+  </ng-container>
+
+  <!-- Name Column -->
+  <ng-container matColumnDef="manufacturer">
+    <th mat-header-cell *matHeaderCellDef> Manufacutre </th>
+    <td mat-cell *matCellDef="let element"> {{element.manufacturer}} </td>
+  </ng-container>
+
+  <!-- Weight Column -->
+  <ng-container matColumnDef="os">
+    <th mat-header-cell *matHeaderCellDef> OS </th>
+    <td mat-cell *matCellDef="let element"> {{element.os}} </td>
+  </ng-container>
+
+  <ng-container matColumnDef="action">
+    <th mat-header-cell *matHeaderCellDef> Action </th>
+    <td mat-cell *matCellDef="let element">
+    
+    <button mat-raised-button color="primary" (click)="checkInCheckOutDevice(element._id,true)" [disabled]="!element.isCheckedOut">Check In</button>
+    <button mat-raised-button color="primary" (click)="checkInCheckOutDevice(element._id,false)" [disabled]="element.isCheckedOut">Check Out</button>
+    <button mat-raised-button color="warn" (click)="deleteDevice(element._id)">Delete</button>
+    <button mat-raised-button color="primary" (click)="showReview(element._id)">Review</button>
+    
+    </td>
+  </ng-container>
+
+  <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+  <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
+</table>

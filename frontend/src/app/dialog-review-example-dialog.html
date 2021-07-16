@@ -1,0 +1,16 @@
+<h1 mat-dialog-title>Add Comment</h1>
+<div mat-dialog-content>
+  <mat-form-field appearance="fill">
+    <mat-label>Comment</mat-label>
+    <input matInput [(ngModel)]="data.comment">
+  </mat-form-field>
+  <mat-list role="list">
+    <mat-list-item *ngFor="let review of reviews" role="listitem">{{review.comment}}</mat-list-item>
+</mat-list>
+</div>
+<div mat-dialog-actions>
+  <button mat-button (click)="onNoClick()">Cancel</button>
+  <button mat-button [mat-dialog-close]="data" (click)="addReview()" cdkFocusInitial>Add</button>
+</div>
+
+

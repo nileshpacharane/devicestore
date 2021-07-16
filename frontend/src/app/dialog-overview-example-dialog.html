@@ -1,0 +1,19 @@
+<h1 mat-dialog-title>Add Device</h1>
+<div mat-dialog-content>
+  <mat-form-field appearance="fill">
+    <mat-label>Device</mat-label>
+    <input matInput [(ngModel)]="data.device">
+  </mat-form-field>
+  <mat-form-field appearance="fill">
+    <mat-label>OS</mat-label>
+    <input matInput [(ngModel)]="data.os">
+  </mat-form-field>
+  <mat-form-field appearance="fill">
+    <mat-label>Manufacturer</mat-label>
+    <input matInput [(ngModel)]="data.manufacturer">
+  </mat-form-field>
+</div>
+<div mat-dialog-actions>
+  <button mat-button (click)="onNoClick()">Cancel</button>
+  <button mat-button [mat-dialog-close]="data" cdkFocusInitial>Add</button>
+</div>
