@@ -1,6 +1,5 @@
 const express = require('express');
 const router = express.Router();
-const setupdb = require('../config/setupdb');
 const deviceController = require('../controller/device.controller')
 
 router.get('/getDevice', deviceController.getAll);
